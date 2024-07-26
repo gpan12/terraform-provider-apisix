@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/holubovskyi/apisix-client-go"
+	"github.com/gpan12/apisix-client-go"
 
 	"terraform-provider-apisix/apisix/model"
 

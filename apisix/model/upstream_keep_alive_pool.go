@@ -1,7 +1,7 @@
 package model
 
 import (
-	"github.com/holubovskyi/apisix-client-go"
+	"github.com/gpan12/apisix-client-go"
 
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema"
 	"github.com/hashicorp/terraform-plugin-framework/types"

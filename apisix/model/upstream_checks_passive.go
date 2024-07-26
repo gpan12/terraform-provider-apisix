@@ -3,8 +3,8 @@ package model
 import (
 	"context"
 
+	api_client "github.com/gpan12/apisix-client-go"
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema"
-	api_client "github.com/holubovskyi/apisix-client-go"
 )
 
 type UpstreamChecksPassiveType struct {

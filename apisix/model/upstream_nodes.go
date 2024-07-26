@@ -3,11 +3,11 @@ package model
 import (
 	"context"
 
+	"github.com/gpan12/apisix-client-go"
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema"
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema/int64default"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 	"github.com/hashicorp/terraform-plugin-log/tflog"
-	"github.com/holubovskyi/apisix-client-go"
 )
 
 type UpstreamNodeType struct {

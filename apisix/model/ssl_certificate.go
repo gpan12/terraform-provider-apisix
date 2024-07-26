@@ -8,7 +8,7 @@ import (
 	"encoding/pem"
 	"fmt"
 
-	"github.com/holubovskyi/apisix-client-go"
+	"github.com/gpan12/apisix-client-go"
 
 	"github.com/hashicorp/terraform-plugin-framework-validators/int64validator"
 	"github.com/hashicorp/terraform-plugin-framework-validators/stringvalidator"

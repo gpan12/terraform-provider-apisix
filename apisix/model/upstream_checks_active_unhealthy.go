@@ -3,6 +3,7 @@ package model
 import (
 	"context"
 
+	api_client "github.com/gpan12/apisix-client-go"
 	"github.com/hashicorp/terraform-plugin-framework-validators/int64validator"
 	"github.com/hashicorp/terraform-plugin-framework-validators/listvalidator"
 	"github.com/hashicorp/terraform-plugin-framework/attr"
@@ -11,7 +12,6 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema/listdefault"
 	"github.com/hashicorp/terraform-plugin-framework/schema/validator"
 	"github.com/hashicorp/terraform-plugin-framework/types"
-	api_client "github.com/holubovskyi/apisix-client-go"
 )
 
 type UpstreamChecksActiveUnhealthyType struct {

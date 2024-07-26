@@ -4,7 +4,7 @@ import (
 	"context"
 	"os"
 
-	"github.com/holubovskyi/apisix-client-go"
+	api_client "github.com/gpan12/apisix-client-go"
 
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 	"github.com/hashicorp/terraform-plugin-framework/path"
